@@ -1,7 +1,8 @@
 ## How to use it
 1. Run the app.py
 2. Map should be found in localhost: http://127.0.0.1:5000/map
-
+## Demo
+A simpler but limited demo of the project can be tested at https://sites.google.com/view/webmapdgt/inicio 
 ## Requirements
 You need Flask, folium and requests:
 `pip install flask folium requests`
