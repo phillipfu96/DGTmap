@@ -1,4 +1,3 @@
 # How to use it
-- 1: run the dgt.py
-- 2: run app.py
-- 3: open 127.0.0.1/map in browser
+## 1- Run the app.py
+## 2- Start a browser window in localhost output: http://127.0.0.1/map
