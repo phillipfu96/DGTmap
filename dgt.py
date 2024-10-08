@@ -50,13 +50,13 @@ for feature in data['features']:
             camera_id = feature['properties']['idcamara']
             popup_html = f"""
                 <div>
-                    <a href='http://127.0.0.1:5000/camera_preview?id={camera_id}' 
+                    <a href='camera_preview?id={camera_id}' 
                        target='_blank' 
                        style='display: inline-block; margin-bottom: 10px; padding: 5px; background-color: #007bff; color: black; text-decoration: none; border-radius: 4px;'>
                         Open Camera
                     </a>
                     <iframe 
-                        src='http://127.0.0.1:5000/camera_preview?id={camera_id}' 
+                        src='camera_preview?id={camera_id}' 
                         width='400' 
                         height='320' 
                         style='border:none;'>
